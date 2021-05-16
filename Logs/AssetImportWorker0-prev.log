@@ -15,11 +15,11 @@ C:/Users/pbriu/Documents/Glitch Garden
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50303
+63138
 Successfully changed project path to: C:/Users/pbriu/Documents/Glitch Garden
 C:/Users/pbriu/Documents/Glitch Garden
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 28.15 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 61.16 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.4f1 (0abb6314276a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Resources/UnitySubsystems
@@ -35,865 +35,438 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56004
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56420
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001767 seconds.
+Registered in 0.003539 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 29.29 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 47.76 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.855 seconds
+- Completed reload, in  2.570 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000652 seconds.
+Registered in 0.001997 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 27.52 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 29.52 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.711 seconds
+- Completed reload, in  0.809 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1808 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 84.8 MB.
-System memory in use after: 84.8 MB.
+Unloading 1809 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.9 MB.
+System memory in use after: 84.9 MB.
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2250.
-Total: 1.875100 ms (FindLiveObjects: 0.213100 ms CreateObjectMapping: 0.157200 ms MarkObjects: 1.401200 ms  DeleteObjects: 0.102400 ms)
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2252.
+Total: 2.320100 ms (FindLiveObjects: 0.263500 ms CreateObjectMapping: 0.089200 ms MarkObjects: 1.849500 ms  DeleteObjects: 0.116800 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes
-  artifactKey: Guid(3c57c00d05e1e2942adc140c737cb937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(3c57c00d05e1e2942adc140c737cb937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6adf9f8fc0ff09348be4a37c33b5752a') in 0.007422 seconds
-  Import took 0.009739 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000742 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55d65d5fff917f2d1ced4e7ecabd3689') in 0.013112 seconds
-  Import took 0.016494 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 990.665938 seconds.
-  path: Assets/3.2 Glitch Images.zip.zip
-  artifactKey: Guid(1dcbd3656b7dbc44a9c5883f7668b5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3.2 Glitch Images.zip.zip using Guid(1dcbd3656b7dbc44a9c5883f7668b5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09955d0ddbb23398f2af2a83959a72ad') in 0.016626 seconds
-  Import took 0.020092 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.089738 seconds.
-  path: Assets/3.3 Glitch Images.zip.zip
-  artifactKey: Guid(70a5e5a7d16f16046b96b6d1d7e29074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3.3 Glitch Images.zip.zip using Guid(70a5e5a7d16f16046b96b6d1d7e29074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '008f506659f547f690fa8c4b43b3c57f') in 0.019082 seconds
-  Import took 0.022706 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 36.882180 seconds.
-  path: Assets/6.3 Background Art.zip.zip
-  artifactKey: Guid(0af66a44ae1a689479a6fdddf1703c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/6.3 Background Art.zip.zip using Guid(0af66a44ae1a689479a6fdddf1703c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fb469f23ead5ffbd5bea8f748aa0e0c') in 0.018092 seconds
-  Import took 0.021857 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.102422 seconds.
-  path: Assets/22.1 Explosion VFX.zip.zip
-  artifactKey: Guid(a45a0d034a352ba409d74f83c44b40bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/22.1 Explosion VFX.zip.zip using Guid(a45a0d034a352ba409d74f83c44b40bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c6feb5a8fbd5f42c242a9efaf5d9018') in 0.018621 seconds
-  Import took 0.021594 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.573399 seconds.
-  path: Assets/8.5 Glitch Garden Assets 2.0.zip.zip
-  artifactKey: Guid(6208fddb12be76d4e8b3994699b50d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8.5 Glitch Garden Assets 2.0.zip.zip using Guid(6208fddb12be76d4e8b3994699b50d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba4e4176bbd2a1fb6e1fb2ed1dd43177') in 0.010245 seconds
-  Import took 0.013620 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.185249 seconds.
-  path: Assets/56.1 Glitch_Meal_Vendor_1920x1080.zip.zip
-  artifactKey: Guid(62cb01f996a186b4fb480168e81b966e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/56.1 Glitch_Meal_Vendor_1920x1080.zip.zip using Guid(62cb01f996a186b4fb480168e81b966e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3536782e4bff35d07fd7d747b31d8e77') in 0.017698 seconds
-  Import took 0.020754 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 325.246030 seconds.
-  path: Assets/Images
-  artifactKey: Guid(93c929bcf4e1b98478585a6a8d13542b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images using Guid(93c929bcf4e1b98478585a6a8d13542b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7ffc4781c455721571a2edf6edc2af6') in 0.008886 seconds
-  Import took 0.013173 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.549845 seconds.
-  path: Assets/56.1 Glitch_Meal_Vendor_1920x1080.zip
-  artifactKey: Guid(066cea941b67d8e429cd135b785cf620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/56.1 Glitch_Meal_Vendor_1920x1080.zip using Guid(066cea941b67d8e429cd135b785cf620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b38afae1563c62cf9390f1d1304074c') in 0.002908 seconds
-  Import took 0.016336 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002268 seconds.
-  path: Assets/56.1 Glitch_Meal_Vendor_1920x1080.zip
-  artifactKey: Guid(066cea941b67d8e429cd135b785cf620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/56.1 Glitch_Meal_Vendor_1920x1080.zip using Guid(066cea941b67d8e429cd135b785cf620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b38afae1563c62cf9390f1d1304074c') in 0.002848 seconds
-  Import took 0.006188 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.184092 seconds.
-  path: Assets/56.1 Glitch_Meal_Vendor_1920x1080.zip/Glitch_Meal_Vendor_1920x1080.jpg
-  artifactKey: Guid(9e662a46942f96048930459898eceb5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/56.1 Glitch_Meal_Vendor_1920x1080.zip/Glitch_Meal_Vendor_1920x1080.jpg using Guid(9e662a46942f96048930459898eceb5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51d91d0437c9ad72ef56ba20030a0881') in 0.096424 seconds
-  Import took 0.099680 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.614415 seconds.
-  path: Assets/3.3 Glitch Images.zip
-  artifactKey: Guid(63f8fe4030c5a804eb661f7dd3d7f61f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3.3 Glitch Images.zip using Guid(63f8fe4030c5a804eb661f7dd3d7f61f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff25ea4d2cccbf50208623734d5ec9a3') in 0.002250 seconds
-  Import took 0.015131 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.845909 seconds.
-  path: Assets/3.3 Glitch Images.zip/Glitch Images
-  artifactKey: Guid(aef7adbdf4a39344bba9093c1c5e3ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3.3 Glitch Images.zip/Glitch Images using Guid(aef7adbdf4a39344bba9093c1c5e3ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f51c299084d08d360d3ee53c83f6e76b') in 0.018113 seconds
-  Import took 0.021475 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/3.3 Glitch Images.zip/Glitch Images/glitch-homepage-1920x1080.jpeg
-  artifactKey: Guid(b8f29bbf1f2d44540a187f25127651ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3.3 Glitch Images.zip/Glitch Images/glitch-homepage-1920x1080.jpeg using Guid(b8f29bbf1f2d44540a187f25127651ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16bd17e0cdb274be55f69028b39b5d4b') in 0.024794 seconds
-  Import took 0.027993 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/3.3 Glitch Images.zip/Glitch Images/Glitch_Yoga_Frog_1920x1080_2.jpg
-  artifactKey: Guid(3121dbb982e6d8c46a8c77655b29b2d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3.3 Glitch Images.zip/Glitch Images/Glitch_Yoga_Frog_1920x1080_2.jpg using Guid(3121dbb982e6d8c46a8c77655b29b2d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f85aa15b6502546741e8f5dd48b42c60') in 0.023211 seconds
-  Import took 0.026633 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 39.261093 seconds.
-  path: Assets/Images/Splash Image.jpeg
-  artifactKey: Guid(b8f29bbf1f2d44540a187f25127651ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/Splash Image.jpeg using Guid(b8f29bbf1f2d44540a187f25127651ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db07ddc651579869e5822c4328bfa2ed') in 0.027449 seconds
-  Import took 0.030368 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.809337 seconds.
-  path: Assets/Images/Start Screen Image.jpg
-  artifactKey: Guid(3121dbb982e6d8c46a8c77655b29b2d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/Start Screen Image.jpg using Guid(3121dbb982e6d8c46a8c77655b29b2d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3d266fbce3a64c75b249859450f9714') in 0.023159 seconds
-  Import took 0.025949 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 581.008662 seconds.
-  path: Assets/8.5 Glitch Garden Assets 2.0.zip/Glitch Garden Assets 2.0
-  artifactKey: Guid(e0707c1bdae1acf45b4b8d5db36b1c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8.5 Glitch Garden Assets 2.0.zip/Glitch Garden Assets 2.0 using Guid(e0707c1bdae1acf45b4b8d5db36b1c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faec56756dc72987c34ff853d10f1bd3') in 0.039469 seconds
-  Import took 0.042641 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.873963 seconds.
-  path: Assets/8.5 Glitch Garden Assets 2.0.zip/Glitch Garden Assets 2.0/Audio
-  artifactKey: Guid(cf8a12fce6758bd418be13719ed54a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8.5 Glitch Garden Assets 2.0.zip/Glitch Garden Assets 2.0/Audio using Guid(cf8a12fce6758bd418be13719ed54a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cfe28913f0878c83658689fad0787ea') in 0.017606 seconds
-  Import took 0.021223 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/8.5 Glitch Garden Assets 2.0.zip/Glitch Garden Assets 2.0/Audio/quest_complete.mp3
-  artifactKey: Guid(18055e3dd89cb3d44ab71ed729feebd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8.5 Glitch Garden Assets 2.0.zip/Glitch Garden Assets 2.0/Audio/quest_complete.mp3 using Guid(18055e3dd89cb3d44ab71ed729feebd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fec4c31514da2f7ad27bd78367c6130') in 0.041697 seconds
-  Import took 0.044636 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/8.5 Glitch Garden Assets 2.0.zip/Glitch Garden Assets 2.0/Audio
-  artifactKey: Guid(cf8a12fce6758bd418be13719ed54a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8.5 Glitch Garden Assets 2.0.zip/Glitch Garden Assets 2.0/Audio using Guid(cf8a12fce6758bd418be13719ed54a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cfe28913f0878c83658689fad0787ea') in 0.001325 seconds
-  Import took 0.003496 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000137 seconds.
-  path: Assets/8.5 Glitch Garden Assets 2.0.zip/Glitch Garden Assets 2.0/Audio/Spooky_Groddle_1291879214.mp3
-  artifactKey: Guid(4f66be3ac55234f4f8e09873a343bf61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8.5 Glitch Garden Assets 2.0.zip/Glitch Garden Assets 2.0/Audio/Spooky_Groddle_1291879214.mp3 using Guid(4f66be3ac55234f4f8e09873a343bf61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f0dc31ebc7da58523ae682f996d4e36') in 0.019704 seconds
-  Import took 0.022273 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/8.5 Glitch Garden Assets 2.0.zip/Glitch Garden Assets 2.0/Audio/game_loaded_2.mp3
-  artifactKey: Guid(4ef1783ba9d498248b82c1822b893c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8.5 Glitch Garden Assets 2.0.zip/Glitch Garden Assets 2.0/Audio/game_loaded_2.mp3 using Guid(4ef1783ba9d498248b82c1822b893c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05b1781071335c3a48c94fe5e1e7c634') in 0.019106 seconds
-  Import took 0.023901 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 32.193453 seconds.
-  path: Assets/Sounds
-  artifactKey: Guid(e0ba0ce4514885d4f9b4b58f4def56b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds using Guid(e0ba0ce4514885d4f9b4b58f4def56b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54d70d8e6b4bbcef31af0cf20de79dda') in 0.018137 seconds
-  Import took 0.022155 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 62.205218 seconds.
-  path: Assets/6.3 Background Art.zip/Background Art
-  artifactKey: Guid(8cb9162d934c04345baaeb2f6d2b10be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/6.3 Background Art.zip/Background Art using Guid(8cb9162d934c04345baaeb2f6d2b10be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '028bc1aabf3293746401b428eb51f827') in 0.042371 seconds
-  Import took 0.044853 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/6.3 Background Art.zip/Background Art/bg_glitchGarden-1920x1080.jpg
-  artifactKey: Guid(5e500535785d07d44a9f3cb17725a7c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/6.3 Background Art.zip/Background Art/bg_glitchGarden-1920x1080.jpg using Guid(5e500535785d07d44a9f3cb17725a7c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4575091fa93a32a7711daaa5047d18d6') in 0.028938 seconds
-  Import took 0.032044 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/6.3 Background Art.zip/Background Art/obj_glitchGarden_treeL.png
-  artifactKey: Guid(3770c42f1ddd8604ca5e0bd8ff1141d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/6.3 Background Art.zip/Background Art/obj_glitchGarden_treeL.png using Guid(3770c42f1ddd8604ca5e0bd8ff1141d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12268194d76650c614175858f64ad21b') in 0.020841 seconds
-  Import took 0.023965 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/6.3 Background Art.zip/Background Art/bg_glitchGarden-1920x1080.jpg
-  artifactKey: Guid(5e500535785d07d44a9f3cb17725a7c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/6.3 Background Art.zip/Background Art/bg_glitchGarden-1920x1080.jpg using Guid(5e500535785d07d44a9f3cb17725a7c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4575091fa93a32a7711daaa5047d18d6') in 0.023750 seconds
-  Import took 0.027712 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000141 seconds.
-  path: Assets/6.3 Background Art.zip/Background Art/obj_glitchGarden_treeL.png
-  artifactKey: Guid(3770c42f1ddd8604ca5e0bd8ff1141d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/6.3 Background Art.zip/Background Art/obj_glitchGarden_treeL.png using Guid(3770c42f1ddd8604ca5e0bd8ff1141d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12268194d76650c614175858f64ad21b') in 0.019135 seconds
-  Import took 0.023015 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/6.3 Background Art.zip/Background Art/obj_glitchGarden_treeR.png
-  artifactKey: Guid(c3e4320cd9faf2b4594596b88ff3fad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/6.3 Background Art.zip/Background Art/obj_glitchGarden_treeR.png using Guid(c3e4320cd9faf2b4594596b88ff3fad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4185d2fecdd56aaa2ee1b0286d0ddb1') in 0.011499 seconds
-  Import took 0.014919 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.006829 seconds.
-  path: Assets/8.5 Glitch Garden Assets 2.0.zip/Glitch Garden Assets 2.0/Spritesheets/Axe.png
-  artifactKey: Guid(47764923aa0faea47b7bf532c2f5d966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8.5 Glitch Garden Assets 2.0.zip/Glitch Garden Assets 2.0/Spritesheets/Axe.png using Guid(47764923aa0faea47b7bf532c2f5d966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33528c3f6e8f552965ee6ab4a9b16e7b') in 0.024690 seconds
-  Import took 0.027657 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000122 seconds.
-  path: Assets/8.5 Glitch Garden Assets 2.0.zip/Glitch Garden Assets 2.0/Spritesheets/Fox Jump.png
-  artifactKey: Guid(ae1c6113e74c4ac41a4e461937616d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8.5 Glitch Garden Assets 2.0.zip/Glitch Garden Assets 2.0/Spritesheets/Fox Jump.png using Guid(ae1c6113e74c4ac41a4e461937616d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c089dbd81cf88a284cfe7fc5170f5755') in 0.027762 seconds
-  Import took 0.030157 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/8.5 Glitch Garden Assets 2.0.zip/Glitch Garden Assets 2.0/Spritesheets/Gnome Hop.png
-  artifactKey: Guid(0b5ea1e1ed4d89844b24bd6151acb2f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8.5 Glitch Garden Assets 2.0.zip/Glitch Garden Assets 2.0/Spritesheets/Gnome Hop.png using Guid(0b5ea1e1ed4d89844b24bd6151acb2f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d2c81f2c34521640f3254e47072c7e5') in 0.013584 seconds
-  Import took 0.017734 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/8.5 Glitch Garden Assets 2.0.zip/Glitch Garden Assets 2.0/Spritesheets/Fox Running.png
-  artifactKey: Guid(979f5553380137f4181c4665724fe1f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8.5 Glitch Garden Assets 2.0.zip/Glitch Garden Assets 2.0/Spritesheets/Fox Running.png using Guid(979f5553380137f4181c4665724fe1f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d27c981f5b4fdda7a9a4284cc6b71b6') in 0.019078 seconds
-  Import took 0.022833 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/8.5 Glitch Garden Assets 2.0.zip/Glitch Garden Assets 2.0/Spritesheets/Gnome Idle.png
-  artifactKey: Guid(f67f91f331668084b9425468041cb8dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8.5 Glitch Garden Assets 2.0.zip/Glitch Garden Assets 2.0/Spritesheets/Gnome Idle.png using Guid(f67f91f331668084b9425468041cb8dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd80cc275f94ab1a732d3ac721cbb9df') in 0.016214 seconds
-  Import took 0.020228 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/8.5 Glitch Garden Assets 2.0.zip/Glitch Garden Assets 2.0/Spritesheets/Cactus Idle.png
-  artifactKey: Guid(f43bf94962ac668429a34d74f21926f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8.5 Glitch Garden Assets 2.0.zip/Glitch Garden Assets 2.0/Spritesheets/Cactus Idle.png using Guid(f43bf94962ac668429a34d74f21926f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff4ada2a774640f984e2d3826c177709') in 0.027994 seconds
-  Import took 0.031624 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000130 seconds.
-  path: Assets/8.5 Glitch Garden Assets 2.0.zip/Glitch Garden Assets 2.0/Spritesheets/Cactus Looping.png
-  artifactKey: Guid(4d51ac7437b829747aea58597b0d6f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8.5 Glitch Garden Assets 2.0.zip/Glitch Garden Assets 2.0/Spritesheets/Cactus Looping.png using Guid(4d51ac7437b829747aea58597b0d6f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cdbe1d35590705e62cf859c20fd719f') in 0.031853 seconds
-  Import took 0.034855 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/8.5 Glitch Garden Assets 2.0.zip/Glitch Garden Assets 2.0/Spritesheets/Fox Eating.png
-  artifactKey: Guid(2a67e7c1e3e8baa4da30e01e38bfb25a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8.5 Glitch Garden Assets 2.0.zip/Glitch Garden Assets 2.0/Spritesheets/Fox Eating.png using Guid(2a67e7c1e3e8baa4da30e01e38bfb25a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd24eff223ed054b842afd24110bd02c') in 0.013283 seconds
-  Import took 0.016109 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/8.5 Glitch Garden Assets 2.0.zip/Glitch Garden Assets 2.0/Spritesheets/Bundle Of Joy Walking.png
-  artifactKey: Guid(2764303b30cae7a488f2e7fc2a1f4b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8.5 Glitch Garden Assets 2.0.zip/Glitch Garden Assets 2.0/Spritesheets/Bundle Of Joy Walking.png using Guid(2764303b30cae7a488f2e7fc2a1f4b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '451ac43573ad5c1344f709123d45c727') in 0.013541 seconds
-  Import took 0.018453 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000404 seconds.
-  path: Assets/8.5 Glitch Garden Assets 2.0.zip/Glitch Garden Assets 2.0/Spritesheets/Batterfly Flying.png
-  artifactKey: Guid(c730db7220829154d8efcaef1934d6dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8.5 Glitch Garden Assets 2.0.zip/Glitch Garden Assets 2.0/Spritesheets/Batterfly Flying.png using Guid(c730db7220829154d8efcaef1934d6dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ff23624b48484b06de900f3cfbde454') in 0.016145 seconds
-  Import took 0.019460 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/8.5 Glitch Garden Assets 2.0.zip/Glitch Garden Assets 2.0/Spritesheets/Fox Walking.png
-  artifactKey: Guid(ed59a67596ee29c4292314807acf79ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8.5 Glitch Garden Assets 2.0.zip/Glitch Garden Assets 2.0/Spritesheets/Fox Walking.png using Guid(ed59a67596ee29c4292314807acf79ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1b109e22f27521e85970f7cf10c79e2') in 0.022036 seconds
-  Import took 0.024761 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.094511 seconds.
-  path: Assets/8.5 Glitch Garden Assets 2.0.zip/Glitch Garden Assets 2.0/Spritesheets/Gravestone.png
-  artifactKey: Guid(a55a191d3a8bd00449c5b5ceae259af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8.5 Glitch Garden Assets 2.0.zip/Glitch Garden Assets 2.0/Spritesheets/Gravestone.png using Guid(a55a191d3a8bd00449c5b5ceae259af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '319c286904df5d03b97aa55d4ae97b79') in 0.023001 seconds
-  Import took 0.026012 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000133 seconds.
-  path: Assets/8.5 Glitch Garden Assets 2.0.zip/Glitch Garden Assets 2.0/Spritesheets/Jabba Walking.png
-  artifactKey: Guid(082f41a2d9f538841ba10a9ac1bcc62b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8.5 Glitch Garden Assets 2.0.zip/Glitch Garden Assets 2.0/Spritesheets/Jabba Walking.png using Guid(082f41a2d9f538841ba10a9ac1bcc62b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38511603a4809993e2f2ed9403fd4d1c') in 0.024422 seconds
-  Import took 0.027872 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001280 seconds.
-  path: Assets/8.5 Glitch Garden Assets 2.0.zip/Glitch Garden Assets 2.0/Spritesheets/Jabba Walking.png
-  artifactKey: Guid(082f41a2d9f538841ba10a9ac1bcc62b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8.5 Glitch Garden Assets 2.0.zip/Glitch Garden Assets 2.0/Spritesheets/Jabba Walking.png using Guid(082f41a2d9f538841ba10a9ac1bcc62b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38511603a4809993e2f2ed9403fd4d1c') in 0.017136 seconds
-  Import took 0.021033 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.589768 seconds.
-  path: Assets/8.5 Glitch Garden Assets 2.0.zip/Glitch Garden Assets 2.0/Spritesheets/Lizard Attacking.png
-  artifactKey: Guid(8b398ac2273d4dc46aa3ccbebd3243fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8.5 Glitch Garden Assets 2.0.zip/Glitch Garden Assets 2.0/Spritesheets/Lizard Attacking.png using Guid(8b398ac2273d4dc46aa3ccbebd3243fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '457fcf81267289b46ef571f4a9a900a8') in 0.025573 seconds
-  Import took 0.029056 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/8.5 Glitch Garden Assets 2.0.zip/Glitch Garden Assets 2.0/Spritesheets/Lizard Jump.png
-  artifactKey: Guid(526a9d8d4f70f9045aa9bd234634988b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8.5 Glitch Garden Assets 2.0.zip/Glitch Garden Assets 2.0/Spritesheets/Lizard Jump.png using Guid(526a9d8d4f70f9045aa9bd234634988b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5582199e7b6b4f34ff9aa1ac0c061a9a') in 0.022496 seconds
-  Import took 0.025742 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000133 seconds.
-  path: Assets/8.5 Glitch Garden Assets 2.0.zip/Glitch Garden Assets 2.0/Spritesheets/Lizard Attacking.png
-  artifactKey: Guid(8b398ac2273d4dc46aa3ccbebd3243fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8.5 Glitch Garden Assets 2.0.zip/Glitch Garden Assets 2.0/Spritesheets/Lizard Attacking.png using Guid(8b398ac2273d4dc46aa3ccbebd3243fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '457fcf81267289b46ef571f4a9a900a8') in 0.029465 seconds
-  Import took 0.032868 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.041815 seconds.
-  path: Assets/8.5 Glitch Garden Assets 2.0.zip/Glitch Garden Assets 2.0/Spritesheets/Lizard Walk.png
-  artifactKey: Guid(00f23f77cd1bc4743999aec4e4a3776f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8.5 Glitch Garden Assets 2.0.zip/Glitch Garden Assets 2.0/Spritesheets/Lizard Walk.png using Guid(00f23f77cd1bc4743999aec4e4a3776f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cf44837d388e8b46c9985b292ceba0f') in 0.017659 seconds
-  Import took 0.020639 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/8.5 Glitch Garden Assets 2.0.zip/Glitch Garden Assets 2.0/Spritesheets/Scarecrow Standing.png
-  artifactKey: Guid(2400465ce971ec046a6c27c30d8ade42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8.5 Glitch Garden Assets 2.0.zip/Glitch Garden Assets 2.0/Spritesheets/Scarecrow Standing.png using Guid(2400465ce971ec046a6c27c30d8ade42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dfe2d458bb4a3762de7f58d17478d8c') in 0.025873 seconds
-  Import took 0.028484 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000993 seconds.
-  path: Assets/8.5 Glitch Garden Assets 2.0.zip/Glitch Garden Assets 2.0/Spritesheets/Scarecrow Standing.png
-  artifactKey: Guid(2400465ce971ec046a6c27c30d8ade42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8.5 Glitch Garden Assets 2.0.zip/Glitch Garden Assets 2.0/Spritesheets/Scarecrow Standing.png using Guid(2400465ce971ec046a6c27c30d8ade42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dfe2d458bb4a3762de7f58d17478d8c') in 0.026845 seconds
-  Import took 0.029784 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.553202 seconds.
-  path: Assets/8.5 Glitch Garden Assets 2.0.zip/Glitch Garden Assets 2.0/Spritesheets/star.png
-  artifactKey: Guid(930b5ad4820209846836fbb6a92ecd99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8.5 Glitch Garden Assets 2.0.zip/Glitch Garden Assets 2.0/Spritesheets/star.png using Guid(930b5ad4820209846836fbb6a92ecd99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72a0acbdf294ca508b7d73307a865e70') in 0.013276 seconds
-  Import took 0.016922 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/8.5 Glitch Garden Assets 2.0.zip/Glitch Garden Assets 2.0/Spritesheets/trophy cut.png
-  artifactKey: Guid(6cc347ff230d3424ca72b18f8c5898a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8.5 Glitch Garden Assets 2.0.zip/Glitch Garden Assets 2.0/Spritesheets/trophy cut.png using Guid(6cc347ff230d3424ca72b18f8c5898a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d5ca13a6ffaf208aa2ecbe56be69565') in 0.020819 seconds
-  Import took 0.025462 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.593548 seconds.
-  path: Assets/8.5 Glitch Garden Assets 2.0.zip/Glitch Garden Assets 2.0/Spritesheets/trophy whole.png
-  artifactKey: Guid(6ffa9d1ca461af04c926c4a6657075ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8.5 Glitch Garden Assets 2.0.zip/Glitch Garden Assets 2.0/Spritesheets/trophy whole.png using Guid(6ffa9d1ca461af04c926c4a6657075ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '393aa18a353c54a59cb62154c7d4e6b8') in 0.010828 seconds
-  Import took 0.014098 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/8.5 Glitch Garden Assets 2.0.zip/Glitch Garden Assets 2.0/Spritesheets/Weird Yellow Thing Walk.png
-  artifactKey: Guid(8cedccecf64239245b2ea90a3f2637c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8.5 Glitch Garden Assets 2.0.zip/Glitch Garden Assets 2.0/Spritesheets/Weird Yellow Thing Walk.png using Guid(8cedccecf64239245b2ea90a3f2637c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70ca46f6879b6e7b0e43612766ccff74') in 0.013658 seconds
-  Import took 0.017328 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/8.5 Glitch Garden Assets 2.0.zip/Glitch Garden Assets 2.0/Spritesheets/trophy whole.png
-  artifactKey: Guid(6ffa9d1ca461af04c926c4a6657075ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8.5 Glitch Garden Assets 2.0.zip/Glitch Garden Assets 2.0/Spritesheets/trophy whole.png using Guid(6ffa9d1ca461af04c926c4a6657075ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '393aa18a353c54a59cb62154c7d4e6b8') in 0.012747 seconds
-  Import took 0.015442 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000120 seconds.
-  path: Assets/8.5 Glitch Garden Assets 2.0.zip/Glitch Garden Assets 2.0/Spritesheets/Weird Yellow Thing Walk.png
-  artifactKey: Guid(8cedccecf64239245b2ea90a3f2637c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8.5 Glitch Garden Assets 2.0.zip/Glitch Garden Assets 2.0/Spritesheets/Weird Yellow Thing Walk.png using Guid(8cedccecf64239245b2ea90a3f2637c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70ca46f6879b6e7b0e43612766ccff74') in 0.016694 seconds
-  Import took 0.019272 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.590750 seconds.
-  path: Assets/8.5 Glitch Garden Assets 2.0.zip/Glitch Garden Assets 2.0/Spritesheets/Zucchini.png
-  artifactKey: Guid(b3093f4da241ab648a6e773525bf2919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8.5 Glitch Garden Assets 2.0.zip/Glitch Garden Assets 2.0/Spritesheets/Zucchini.png using Guid(b3093f4da241ab648a6e773525bf2919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32c74c02dcfcf9515f37fa924a389852') in 0.011898 seconds
-  Import took 0.015386 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000556 seconds.
-  path: Assets/8.5 Glitch Garden Assets 2.0.zip/Glitch Garden Assets 2.0/Spritesheets/Zucchini.png
-  artifactKey: Guid(b3093f4da241ab648a6e773525bf2919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8.5 Glitch Garden Assets 2.0.zip/Glitch Garden Assets 2.0/Spritesheets/Zucchini.png using Guid(b3093f4da241ab648a6e773525bf2919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32c74c02dcfcf9515f37fa924a389852') in 0.009350 seconds
-  Import took 0.012471 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 188.723651 seconds.
-  path: Assets/Scenes/Splash Screen.unity
-  artifactKey: Guid(70f69e6a3d76eb74e88b3dfd66cf764f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Splash Screen.unity using Guid(70f69e6a3d76eb74e88b3dfd66cf764f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50874791127e1535ce95257045910570') in 0.008001 seconds
-  Import took 0.012866 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000601 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.672 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1803 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.0 MB.
-System memory in use after: 88.0 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2310.
-Total: 1.675400 ms (FindLiveObjects: 0.217700 ms CreateObjectMapping: 0.061600 ms MarkObjects: 1.317500 ms  DeleteObjects: 0.077400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.137461 seconds.
-  path: Assets/Scenes/Splash Screen 1.unity
-  artifactKey: Guid(4a20f1a61004c1f438b835b3f2222226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Splash Screen 1.unity using Guid(4a20f1a61004c1f438b835b3f2222226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae354e85a47ff4159642ed061778198f') in 0.037591 seconds
-  Import took 0.045738 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 26.201056 seconds.
-  path: Assets/Scenes/Start Screen.unity
-  artifactKey: Guid(4a20f1a61004c1f438b835b3f2222226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Start Screen.unity using Guid(4a20f1a61004c1f438b835b3f2222226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7edb9e00fcb2ccaf97d17f6107d5734c') in 0.007090 seconds
-  Import took 0.011375 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000673 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.705 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1804 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.1 MB.
-System memory in use after: 88.1 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2315.
-Total: 2.309500 ms (FindLiveObjects: 0.325100 ms CreateObjectMapping: 0.097100 ms MarkObjects: 1.756000 ms  DeleteObjects: 0.130500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 426.735936 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '025e4f587c23674256bb898581e82961') in 0.006695 seconds
-  Import took 0.009100 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002550 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '025e4f587c23674256bb898581e82961') in 0.002158 seconds
-  Import took 0.005946 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.184845 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(3fdb43ddcee62bf4c98dc84b8aa9ea62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(3fdb43ddcee62bf4c98dc84b8aa9ea62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c5e8004d6346fd37655479131373caa') in 0.007211 seconds
-  Import took 0.010296 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.416976 seconds.
-  path: Assets/LevelLoader.cs
+  path: Assets/Scripts/LevelLoader.cs
   artifactKey: Guid(f0e8486a701aac54d89a2d5b9fd8606d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LevelLoader.cs using Guid(f0e8486a701aac54d89a2d5b9fd8606d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef309d5a44a49359853e6f898bfa07c7') in 0.010142 seconds
-  Import took 0.013294 seconds .
+Start importing Assets/Scripts/LevelLoader.cs using Guid(f0e8486a701aac54d89a2d5b9fd8606d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79017a3ca2e597efd15d806d77c20b58') in 0.049200 seconds
+  Import took 0.053044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1120.612217 seconds.
+  path: Assets/8.5 Glitch Garden Assets 2.0.zip/Glitch Garden Assets 2.0/Spritesheets
+  artifactKey: Guid(a36ac03dc06ee284b81c094c3749441c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8.5 Glitch Garden Assets 2.0.zip/Glitch Garden Assets 2.0/Spritesheets using Guid(a36ac03dc06ee284b81c094c3749441c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2aca2c9939e03ef08d5fba57a3d493c') in 0.017687 seconds
+  Import took 0.021709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.638524 seconds.
+  path: Assets/Sprites
+  artifactKey: Guid(821cedef6fa6198458fa744d072ce25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites using Guid(821cedef6fa6198458fa744d072ce25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95e59cedab0371043ab67f369772f660') in 0.007018 seconds
+  Import took 0.009777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002970 seconds.
+  path: Assets/Sprites
+  artifactKey: Guid(821cedef6fa6198458fa744d072ce25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites using Guid(821cedef6fa6198458fa744d072ce25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95e59cedab0371043ab67f369772f660') in 0.001803 seconds
+  Import took 0.006715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 105.042788 seconds.
+  path: Assets/Sprites/Lizard Walk.png
+  artifactKey: Guid(00f23f77cd1bc4743999aec4e4a3776f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Lizard Walk.png using Guid(00f23f77cd1bc4743999aec4e4a3776f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a291b96f00f30da0ee1a5461c506fca') in 0.069948 seconds
+  Import took 0.072521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 92.256980 seconds.
+  path: Assets/Sprites/Lizard Walk.png
+  artifactKey: Guid(00f23f77cd1bc4743999aec4e4a3776f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Lizard Walk.png using Guid(00f23f77cd1bc4743999aec4e4a3776f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c027b7ce1553e65c7ea78b3183c37e0') in 0.084390 seconds
+  Import took 0.087362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1297.056527 seconds.
+  path: Assets/Animations
+  artifactKey: Guid(de46f351d3ae8ed49aad43e57fd1001a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations using Guid(de46f351d3ae8ed49aad43e57fd1001a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdb3bb46c3e993af59740c48319ed7ea') in 0.008147 seconds
+  Import took 0.012599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.970853 seconds.
+  path: Assets/Animations/Lizard.controller
+  artifactKey: Guid(546a99d1b5172f948949404108db1e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Lizard.controller using Guid(546a99d1b5172f948949404108db1e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fa7013b2d7a5ed6c2b9087ae99a1bdd') in 0.012968 seconds
+  Import took 0.015679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 89.313002 seconds.
+  path: Assets/Sprites/Lizard Walk.anim
+  artifactKey: Guid(b1bfa2b01336def4faa5ebeda7795c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Lizard Walk.anim using Guid(b1bfa2b01336def4faa5ebeda7795c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb9e7bb7e97053c4183438058015b7f1') in 0.004690 seconds
+  Import took 0.007540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Sprites/Lizard Walk.anim
+  artifactKey: Guid(b1bfa2b01336def4faa5ebeda7795c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Lizard Walk.anim using Guid(b1bfa2b01336def4faa5ebeda7795c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb9e7bb7e97053c4183438058015b7f1') in 0.002289 seconds
+  Import took 0.005582 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000605 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.683 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1804 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.1 MB.
-System memory in use after: 88.1 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2319.
-Total: 1.752900 ms (FindLiveObjects: 0.245400 ms CreateObjectMapping: 0.054500 ms MarkObjects: 1.315800 ms  DeleteObjects: 0.136500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000842 seconds.
+Registered in 0.000732 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.704 seconds
+- Completed reload, in  0.735 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1804 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.2 MB.
-System memory in use after: 88.2 MB.
+System memory in use before: 88.0 MB.
+System memory in use after: 88.0 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2323.
-Total: 2.105600 ms (FindLiveObjects: 0.496200 ms CreateObjectMapping: 0.102300 ms MarkObjects: 1.414700 ms  DeleteObjects: 0.091200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 85.040207 seconds.
-  path: Assets/Scripts/LevelLoader.cs
-  artifactKey: Guid(f0e8486a701aac54d89a2d5b9fd8606d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LevelLoader.cs using Guid(f0e8486a701aac54d89a2d5b9fd8606d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65dd8ee520d348aec22538cba0fea1df') in 0.003961 seconds
-  Import took 0.006759 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 26.745895 seconds.
-  path: Assets/Scenes/Start Screen.unity
-  artifactKey: Guid(4a20f1a61004c1f438b835b3f2222226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Start Screen.unity using Guid(4a20f1a61004c1f438b835b3f2222226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d80717cb70cc2529b222727e8902777') in 0.011037 seconds
-  Import took 0.015279 seconds .
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2285.
+Total: 2.010300 ms (FindLiveObjects: 0.194500 ms CreateObjectMapping: 0.064800 ms MarkObjects: 1.645000 ms  DeleteObjects: 0.105200 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001223 seconds.
+Registered in 0.000667 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.763 seconds
+- Completed reload, in  0.677 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1804 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.2 MB.
-System memory in use after: 88.2 MB.
+System memory in use before: 88.0 MB.
+System memory in use after: 88.0 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2327.
-Total: 3.158500 ms (FindLiveObjects: 0.429400 ms CreateObjectMapping: 0.210400 ms MarkObjects: 2.393100 ms  DeleteObjects: 0.123400 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2289.
+Total: 3.582700 ms (FindLiveObjects: 0.748500 ms CreateObjectMapping: 0.278700 ms MarkObjects: 2.441200 ms  DeleteObjects: 0.111600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 626.359530 seconds.
+  path: Assets/Animations/Lizard Walk.anim
+  artifactKey: Guid(b1bfa2b01336def4faa5ebeda7795c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Lizard Walk.anim using Guid(b1bfa2b01336def4faa5ebeda7795c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3fd8ebde95a1d5446f42e9ea0ae1872') in 0.010573 seconds
+  Import took 0.013548 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001094 seconds.
+Registered in 0.000662 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.647 seconds
+- Completed reload, in  0.695 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1804 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.2 MB.
-System memory in use after: 88.2 MB.
+System memory in use before: 88.0 MB.
+System memory in use after: 88.0 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2331.
-Total: 2.183300 ms (FindLiveObjects: 0.310800 ms CreateObjectMapping: 0.088900 ms MarkObjects: 1.633400 ms  DeleteObjects: 0.149500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 524.345636 seconds.
-  path: Assets/Prefabs
-  artifactKey: Guid(3d3f928af43c90244bfb3f02fce09eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs using Guid(3d3f928af43c90244bfb3f02fce09eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97958f506b17ecad511a48285cd3a202') in 0.011096 seconds
-  Import took 0.014346 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 29.925013 seconds.
-  path: Assets/Prefabs/Load Sound.prefab
-  artifactKey: Guid(24309a425617c174b882358bef6b6b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Load Sound.prefab using Guid(24309a425617c174b882358bef6b6b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05460f775990ba71954b52ec1a42e398') in 0.023220 seconds
-  Import took 0.025864 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003217 seconds.
-  path: Assets/Prefabs/Load Sound.prefab
-  artifactKey: Guid(24309a425617c174b882358bef6b6b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Load Sound.prefab using Guid(24309a425617c174b882358bef6b6b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05460f775990ba71954b52ec1a42e398') in 0.002959 seconds
-  Import took 0.005631 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.992480 seconds.
-  path: Assets/Scenes/Splash Screen.unity
-  artifactKey: Guid(70f69e6a3d76eb74e88b3dfd66cf764f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Splash Screen.unity using Guid(70f69e6a3d76eb74e88b3dfd66cf764f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cadc986e476a1419350a834882aa018f') in 0.002303 seconds
-  Import took 0.006175 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.373657 seconds.
-  path: Assets/Prefabs/Level Loader.prefab
-  artifactKey: Guid(82d7632991fe3044f92de7d564d0facc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Level Loader.prefab using Guid(82d7632991fe3044f92de7d564d0facc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4e3fe5475b28ef0ba9b36ea215beede') in 0.007213 seconds
-  Import took 0.009823 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.193691 seconds.
-  path: Assets/Prefabs/Canvas.prefab
-  artifactKey: Guid(eefe47532a5913f428a6cdc16ccf86d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Canvas.prefab using Guid(eefe47532a5913f428a6cdc16ccf86d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f30fbb9376fc3a9457afecd4eadb75f8') in 0.015926 seconds
-  Import took 0.018524 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.005319 seconds.
-  path: Assets/Prefabs/Canvas.prefab
-  artifactKey: Guid(eefe47532a5913f428a6cdc16ccf86d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Canvas.prefab using Guid(eefe47532a5913f428a6cdc16ccf86d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f30fbb9376fc3a9457afecd4eadb75f8') in 0.004090 seconds
-  Import took 0.006626 seconds .
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2293.
+Total: 2.707900 ms (FindLiveObjects: 0.238400 ms CreateObjectMapping: 0.160300 ms MarkObjects: 2.103300 ms  DeleteObjects: 0.204600 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000654 seconds.
+Registered in 0.001271 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.635 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1804 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.1 MB.
+System memory in use after: 88.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2297.
+Total: 4.811900 ms (FindLiveObjects: 0.415600 ms CreateObjectMapping: 0.204000 ms MarkObjects: 3.951300 ms  DeleteObjects: 0.238800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.629748 seconds.
+  path: Assets/Animations/Lizard Walk.anim
+  artifactKey: Guid(b1bfa2b01336def4faa5ebeda7795c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Lizard Walk.anim using Guid(b1bfa2b01336def4faa5ebeda7795c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e13a6df1728f897dab42abf41fb158d3') in 0.010026 seconds
+  Import took 0.014918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 68.790950 seconds.
+  path: Assets/Animations/Lizard.controller
+  artifactKey: Guid(546a99d1b5172f948949404108db1e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Lizard.controller using Guid(546a99d1b5172f948949404108db1e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea55c7286420b653a28cddfc69deb6ec') in 0.013430 seconds
+  Import took 0.016346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6340.022015 seconds.
+  path: Assets/Sprites/Lizard Jump.png
+  artifactKey: Guid(526a9d8d4f70f9045aa9bd234634988b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Lizard Jump.png using Guid(526a9d8d4f70f9045aa9bd234634988b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f1dcb309d26423922bbadfcd9beda0c') in 0.091080 seconds
+  Import took 0.096130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 165.134569 seconds.
+  path: Assets/Sprites/Lizard
+  artifactKey: Guid(4ac776f2278ce96409522f1b1ac9b1e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Lizard using Guid(4ac776f2278ce96409522f1b1ac9b1e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc80a3f7fb6efcfcfb2c563178290e41') in 0.003125 seconds
+  Import took 0.006191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003444 seconds.
+  path: Assets/Sprites/Lizard
+  artifactKey: Guid(4ac776f2278ce96409522f1b1ac9b1e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Lizard using Guid(4ac776f2278ce96409522f1b1ac9b1e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc80a3f7fb6efcfcfb2c563178290e41') in 0.002416 seconds
+  Import took 0.006187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.283254 seconds.
+  path: Assets/Sprites/Not In Use
+  artifactKey: Guid(fcf8f12d062f6d542a964deb784a3a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Not In Use using Guid(fcf8f12d062f6d542a964deb784a3a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81c7509ca12f4f7b5ab74783c91c3b6a') in 0.012049 seconds
+  Import took 0.014920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 189.339493 seconds.
+  path: Assets/Sprites/Lizard/Lizard Jump.png
+  artifactKey: Guid(526a9d8d4f70f9045aa9bd234634988b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Lizard/Lizard Jump.png using Guid(526a9d8d4f70f9045aa9bd234634988b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86c536d2938857e272e0a66774118c7a') in 0.168768 seconds
+  Import took 0.174501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.551875 seconds.
+  path: Assets/Sprites/Lizard/Lizard Jump.anim
+  artifactKey: Guid(73f5d23b516daba4e8215efd715a3571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Lizard/Lizard Jump.anim using Guid(73f5d23b516daba4e8215efd715a3571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4847bb5ccf13eec4f786c9d31bfd3271') in 0.003505 seconds
+  Import took 0.006928 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000660 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.679 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1804 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.1 MB.
+System memory in use after: 88.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2305.
+Total: 2.055100 ms (FindLiveObjects: 0.243600 ms CreateObjectMapping: 0.102300 ms MarkObjects: 1.574400 ms  DeleteObjects: 0.134100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000748 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.903 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1804 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.1 MB.
+System memory in use after: 88.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2309.
+Total: 2.504800 ms (FindLiveObjects: 0.256200 ms CreateObjectMapping: 0.076000 ms MarkObjects: 2.035000 ms  DeleteObjects: 0.135800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 637.881446 seconds.
+  path: Assets/Sprites/Lizard/Lizard Walk.png
+  artifactKey: Guid(00f23f77cd1bc4743999aec4e4a3776f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Lizard/Lizard Walk.png using Guid(00f23f77cd1bc4743999aec4e4a3776f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a7b5adbee6bd76647c3655f417f6bf1') in 0.102359 seconds
+  Import took 0.107273 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001343 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.653 seconds
+- Completed reload, in  0.638 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1804 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.5 MB.
-System memory in use after: 88.5 MB.
+System memory in use before: 88.1 MB.
+System memory in use after: 88.1 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2337.
-Total: 1.869500 ms (FindLiveObjects: 0.196100 ms CreateObjectMapping: 0.064400 ms MarkObjects: 1.526300 ms  DeleteObjects: 0.081900 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2314.
+Total: 5.314800 ms (FindLiveObjects: 0.409000 ms CreateObjectMapping: 0.212900 ms MarkObjects: 4.431700 ms  DeleteObjects: 0.258800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000843 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.664 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1804 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.2 MB.
+System memory in use after: 88.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2318.
+Total: 2.197200 ms (FindLiveObjects: 0.290800 ms CreateObjectMapping: 0.147700 ms MarkObjects: 1.653400 ms  DeleteObjects: 0.104200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2114.474547 seconds.
-  path: Assets/Scenes/Start Screen.unity
-  artifactKey: Guid(4a20f1a61004c1f438b835b3f2222226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Start Screen.unity using Guid(4a20f1a61004c1f438b835b3f2222226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41a6d75a9d4cf30065ca205e1342cc8b') in 0.012229 seconds
-  Import took 0.016685 seconds .
+  Time since last request: 98.140105 seconds.
+  path: Assets/Animations/Lizard Jump.anim
+  artifactKey: Guid(73f5d23b516daba4e8215efd715a3571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Lizard Jump.anim using Guid(73f5d23b516daba4e8215efd715a3571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e862f8f57e82b6a2cd2622ed1a95cd0d') in 0.010065 seconds
+  Import took 0.012715 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.002055 seconds.
-  path: Assets/Scenes/Start Screen.unity
-  artifactKey: Guid(4a20f1a61004c1f438b835b3f2222226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Start Screen.unity using Guid(4a20f1a61004c1f438b835b3f2222226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41a6d75a9d4cf30065ca205e1342cc8b') in 0.003319 seconds
-  Import took 0.008766 seconds .
+  Time since last request: 711.157379 seconds.
+  path: Assets/Sprites/trophy
+  artifactKey: Guid(a7a343d96835bc34fad5c36e955ca60f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/trophy using Guid(a7a343d96835bc34fad5c36e955ca60f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11f7d660b30ed6035dc1a24df4eb49ba') in 0.009989 seconds
+  Import took 0.013816 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.009416 seconds.
-  path: Assets/Scenes/Splash Screen.unity
-  artifactKey: Guid(70f69e6a3d76eb74e88b3dfd66cf764f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Splash Screen.unity using Guid(70f69e6a3d76eb74e88b3dfd66cf764f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '569736009fcfc67a2263330ffa85528b') in 0.005327 seconds
-  Import took 0.009798 seconds .
+  Time since last request: 12.677545 seconds.
+  path: Assets/Sprites/Trophy
+  artifactKey: Guid(a7a343d96835bc34fad5c36e955ca60f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Trophy using Guid(a7a343d96835bc34fad5c36e955ca60f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f965de3ecdc67cace2828d5c0b14396') in 0.008061 seconds
+  Import took 0.011047 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1913.956987 seconds.
-  path: Assets/Scenes/Splash Screen.unity
-  artifactKey: Guid(70f69e6a3d76eb74e88b3dfd66cf764f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Splash Screen.unity using Guid(70f69e6a3d76eb74e88b3dfd66cf764f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9bc0ce6c43022a1cb563a1baadc60a9') in 0.003612 seconds
-  Import took 0.008043 seconds .
+  Time since last request: 33.987121 seconds.
+  path: Assets/Sprites/Trophy/trophy cut.png
+  artifactKey: Guid(6cc347ff230d3424ca72b18f8c5898a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Trophy/trophy cut.png using Guid(6cc347ff230d3424ca72b18f8c5898a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '153c0e5f2f4c83bc6a2c4f307b28225c') in 0.033617 seconds
+  Import took 0.036778 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.927414 seconds.
-  path: Assets/Prefabs/Canvas.prefab
-  artifactKey: Guid(eefe47532a5913f428a6cdc16ccf86d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Canvas.prefab using Guid(eefe47532a5913f428a6cdc16ccf86d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06bdbc8ca2db8a8d743ef1dbb457f1fe') in 0.026402 seconds
-  Import took 0.029719 seconds .
+  Time since last request: 92.279556 seconds.
+  path: Assets/Sprites/Trophy/trophy cut.png
+  artifactKey: Guid(6cc347ff230d3424ca72b18f8c5898a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Trophy/trophy cut.png using Guid(6cc347ff230d3424ca72b18f8c5898a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1505a5865b2dde62685999a4396afc20') in 0.058530 seconds
+  Import took 0.062895 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.004198 seconds.
-  path: Assets/Prefabs/Canvas.prefab
-  artifactKey: Guid(eefe47532a5913f428a6cdc16ccf86d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Canvas.prefab using Guid(eefe47532a5913f428a6cdc16ccf86d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06bdbc8ca2db8a8d743ef1dbb457f1fe') in 0.004500 seconds
-  Import took 0.007684 seconds .
+  Time since last request: 16.863915 seconds.
+  path: Assets/Sprites/Trophy/trophy cut.png
+  artifactKey: Guid(6cc347ff230d3424ca72b18f8c5898a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Trophy/trophy cut.png using Guid(6cc347ff230d3424ca72b18f8c5898a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d006e581a715eec14e46ee1654236a1') in 0.026479 seconds
+  Import took 0.029896 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3374.276705 seconds.
-  path: Assets/Scenes/Start Screen 1.unity
-  artifactKey: Guid(12b2bc32a0dafda4d95da41080565913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Start Screen 1.unity using Guid(12b2bc32a0dafda4d95da41080565913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa98a4a7e3127a8107706f581880e6f2') in 0.007101 seconds
-  Import took 0.010903 seconds .
+  Time since last request: 212.890404 seconds.
+  path: Assets/Animations/Trophy.controller
+  artifactKey: Guid(84decac3ff17f3544a6c61da96a2e0ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Trophy.controller using Guid(84decac3ff17f3544a6c61da96a2e0ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c2bc700ea1989dd246f535ff68c71dd') in 0.003148 seconds
+  Import took 0.005863 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 17.137262 seconds.
-  path: Assets/Scenes/Start Screen.unity
-  artifactKey: Guid(4a20f1a61004c1f438b835b3f2222226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Start Screen.unity using Guid(4a20f1a61004c1f438b835b3f2222226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac76e9495909e6866ea3efacb81ef52b') in 0.003979 seconds
-  Import took 0.007501 seconds .
+  Time since last request: 102.203399 seconds.
+  path: Assets/Sprites/Trophy/trophy cut.png
+  artifactKey: Guid(6cc347ff230d3424ca72b18f8c5898a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Trophy/trophy cut.png using Guid(6cc347ff230d3424ca72b18f8c5898a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '057871bece02ce984c51944af0607bbf') in 0.025561 seconds
+  Import took 0.028349 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 17.217857 seconds.
-  path: Assets/Scenes/Start Screen 1.unity
-  artifactKey: Guid(94e03130bd8b92344a2fc66eb3ac5de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Start Screen 1.unity using Guid(94e03130bd8b92344a2fc66eb3ac5de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9976f71758a2e13df68381e657d3f2a0') in 0.002702 seconds
-  Import took 0.006204 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.085637 seconds.
-  path: Assets/Scenes/Level 1.unity
-  artifactKey: Guid(94e03130bd8b92344a2fc66eb3ac5de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level 1.unity using Guid(94e03130bd8b92344a2fc66eb3ac5de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82431d8f53e80f5d3442fc0be945caf2') in 0.009403 seconds
-  Import took 0.013339 seconds .
+  Time since last request: 20.039677 seconds.
+  path: Assets/Sprites/Trophy/trophy cut.png
+  artifactKey: Guid(6cc347ff230d3424ca72b18f8c5898a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Trophy/trophy cut.png using Guid(6cc347ff230d3424ca72b18f8c5898a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a708b7c36918b3be400139583aae90f') in 0.012536 seconds
+  Import took 0.016175 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
